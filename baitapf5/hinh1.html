@@ -1,1 +1,42 @@
+<html>
+<head>
+    <title>BaiF5</title>
+    <meta charset="UTF-8">
 
+</head>
+<body>
+  <form>
+    <h1>Phương thức thanh toán</h1>
+    <input type="radio" id ="cash" name="method" value="cash" checked> 
+    <label for="cash">Tiền mặt</label><br>
+    <input type="radio" id="debit" name="method" value="debit" >
+    <label for ="debit" >Thẻ debit hoặc credit </label> <br>
+    <br>
+    <label for="input1">Tên ghi trên thẻ</label><br>
+    <input name ="input1" id ="input1"><br>
+
+    <label for="number">Số thẻ</label><br>
+    <input name="number" id ="number" >
+   
+    <table style="border-collapse: collapse;" cellspacing="0">
+        <tr>
+            <td >
+                <label for="date">Ngày hết hạn</label>
+                <br>
+    <input name="date" type="text" id ="date" style="width: 100px;" >
+            </td>
+            <td>
+                
+                <label for="cvv">Số thẻ</label><br>
+    <input name="cvv" id ="cvv" style="width: 100px;">
+            </td>
+        </tr>
+        </table>
+        <br>
+        <button style="background:  blue;color:aliceblue">Thanh toán</button>
+
+
+    </form>
+    
+</body>
+</html>
